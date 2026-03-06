@@ -44,12 +44,12 @@ def run_train(
         optimizer.step_and_update_lr()
         if getattr(args, "wandb", False) and is_main():
             wandb.log({"train/step_loss": loss.item(), "train/lr": optimizer.learning_rate, "epoch": epoch})
-        # if checkpoint_manager and is_main():
-        #     if checkpoint_manager.save_step(step, total_steps_per_epoch):
-        #         checkpoint_manager.save_checkpoint(nn, optimizer, epoch, step, prefix="step_")
+        if args.save_step and checkpoint_manager and is_main():
+            if checkpoint_manager.save_step(step, total_steps_per_epoch):
+                checkpoint_manager.save_checkpoint(nn, optimizer, epoch, step, prefix="step_")
         if train_dev_break(getattr(args, "dev", False), batch, loss.item()):
             break
-        # if step > 4000:
+        # if step > 2:
         #     break
 
     average_loss = total_loss / total_steps if total_steps > 0 else float("inf")
